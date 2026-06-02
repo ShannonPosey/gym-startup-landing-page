@@ -1,0 +1,24 @@
+.nav-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.hero-image {
+    background: url(/img/An-on-Treadmill.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  
+}
+
