@@ -1,9 +1,15 @@
-.nav-icons {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 5px;
+body {
+    margin: auto;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 ul {
@@ -22,3 +28,11 @@ ul {
   
 }
 
+.footer-navbar-nav {
+    background: transparent;
+}
+
+.footer-nav-link {
+    margin-right: 50px;
+    justify-content: center;
+}
