@@ -1,9 +1,19 @@
 body {
     margin: auto;
+     background: url(/img/An-on-Treadmill.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 85vh;
+  color: white;
 }
 
-.navbar {
-    background-color: black;
+ul > li > .nav-link {
+  color: #08b9f9;
+  border: 1px solid;
+  margin: 0 5px;
+  font-weight: bold;
 }
 
 .sticky {
@@ -17,22 +27,29 @@ ul {
     
 }
 
-.hero-image {
-    background: url(/img/An-on-Treadmill.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  color: white;
-  
+.hero-content {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.footer {
+ background-color: transparent;
+}
+
+.social-icons {
+    color: #fff;
+    margin-top: 10px;
 }
 
 .footer-navbar-nav {
-    background: transparent;
+    display: flex;
+    justify-content: center; /* Pushes the two divs to opposite sides */
+    align-items: center;
+    
 }
 
 .footer-nav-link {
     margin-right: 50px;
-    justify-content: center;
+    
 }
+
