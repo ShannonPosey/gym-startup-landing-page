@@ -6,8 +6,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 85vh;
-  color: white;
-}
+  }
 
 ul > li > .nav-link {
   color: #08b9f9;
@@ -28,7 +27,7 @@ ul {
 }
 
 .hero-content {
-    color: #fff;
+    /* color: #fff; */
     margin-top: 100px;
 }
 
@@ -37,7 +36,7 @@ ul {
 }
 
 .social-icons {
-    color: #fff;
+    color: #08b9f9;
     margin-top: 10px;
 }
 
